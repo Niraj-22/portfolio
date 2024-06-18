@@ -9,6 +9,10 @@
   </head>
 
   <body>
+     <div class="square">
+      </div>
+      <div class="square2">
+      </div>
     <main>
       <nav class="NavBar">
         <h1>Niraj Chordia Portfolio</h1>
@@ -156,5 +160,9 @@
         </ol>
       </div>
     </main>
+    
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>  
+ <script>gsap.to(".square",{duration:10,y:500,backgroundColor:"pink",ease:"bounce",rotation:360});gsap.to(".square2",{duration:10,y:500,backgroundColor:"pink",ease:"bounce",rotation:360})
+</script>
   </body>
 </html>
