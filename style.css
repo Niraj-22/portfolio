@@ -52,10 +52,7 @@ body {
   cursor:crosshair;
 }
 .square{
-  background-color: skyblue;
-  width: 100px;
-  height: 100px;
-  border-radius: 25px;
+  mix-blend-mode: multiply;
   margin: 5px ;
   position: fixed;
   left: 0;
@@ -63,10 +60,7 @@ body {
   /* margin-left: 0; */
 }
 .square2{
-  background-color: skyblue;
-  width: 100px;
-  height: 100px;
-  border-radius: 25px;
+ 
   margin: 5px ;
   position: fixed;
   right: 0;
